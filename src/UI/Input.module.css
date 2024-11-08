@@ -1,0 +1,20 @@
+.stile{
+    width: 350px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(178, 178, 178);
+    color: white;
+    background-color: rgba(119, 119, 119, 0.227);
+    font-size: 17px;
+    outline: none;
+}
+
+.stile::placeholder{
+    color: white;
+}
+
+.stile:hover{
+    background-color: rgba(120, 120, 120, 0.707);
+    transition-duration: 0.7s;
+}

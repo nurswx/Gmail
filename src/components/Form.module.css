@@ -1,0 +1,30 @@
+.form{
+    border: 3px solid;
+    width: 500px;
+    height: 320px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 50px 20px 50px;
+    background-color: rgba(71, 71, 71, 0.407);
+    backdrop-filter: blur(3px);
+}
+
+.div{
+    width: 600px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(35, 35, 35, 0.844);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonDiv{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
